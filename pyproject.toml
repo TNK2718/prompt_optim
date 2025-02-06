@@ -1,0 +1,13 @@
+[project]
+name = "prompt-optim"
+version = "0.1.0"
+description = ""
+authors = [{ name = "TNK2718", email = "mizuki2718@ruri.waseda.jp" }]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = ["langchain (>=0.3.17,<0.4.0)"]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
